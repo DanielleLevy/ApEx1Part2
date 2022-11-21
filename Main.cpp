@@ -3,7 +3,6 @@
 //
 #include <vector>
 #include <iostream>
-#include <ctype.h>
 #include "Header.h"
 using namespace std;
 

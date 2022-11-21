@@ -33,4 +33,8 @@ int CheckInput(vector <float> vector1, vector <float> vector2){
         cout<<"you should insert 2 vectors in the same size "<<endl;
         return -1;
     }
+    if (vector1.size()==0 or vector2.size()==0){
+        cout<<"vector size is 0, The vector must contain at least one number  "<<endl;
+        return -1;
+    }
 }
