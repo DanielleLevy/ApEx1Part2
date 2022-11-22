@@ -9,17 +9,25 @@ using namespace std;
 vector <float> CreateVector(string str, char seprate,
                             vector<float> v) {
     string number;
+    float numberAfterConv;
     for (int i=0;i<str.size();i++){
-        if(isalpha(str[i])){
+        if(isalpha(str[i]) ){
             cout<<"you should insert numbers only"<<endl;
-            break;
+            exit(0);
 
         }
         if (str[i]!=seprate){
             number=number+str[i];
         }
         else{
-            v.push_back(stof(number));
+            try{
+                numberAfterConv=stof(number);//check if the string is not nuber
+            }
+            catch(...){
+                cout<<"you should insert numbers only"<<endl;
+                exit(0);
+            }
+            v.push_back(numberAfterConv);
             number.clear();
         }
 
