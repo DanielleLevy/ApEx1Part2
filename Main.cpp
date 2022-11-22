@@ -26,6 +26,7 @@ int main(){
     }
     else{
         cout<<"Input check failed, please try again"<<endl;
+        exit(0);
     }
 
 }
