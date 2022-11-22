@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdlib>
+#include <string>
 using namespace std;
 
 vector <double> CreateVector(string str, char seprate,
