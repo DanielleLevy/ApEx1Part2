@@ -7,12 +7,12 @@
 #include <cmath>
 using namespace std;
 
-float chebyshec (vector <float> a, vector <float> b ){
+double chebyshec (vector <double> a, vector <double> b ){
     /**
-      * the function gets 2 vector in the same size and conclute their's canberra distance
+      * the function gets 2 vector in the same size and calculates their's canberra distance
      */
-    float max;  //use for the loop to find the maximum distance
-    float distance[a.size()]; // to save the distance between the element of the vector
+    double max;  //use for the loop to find the maximum distance
+    double distance[a.size()]; // to save the distance between the element of the vector
     for (int i=0;i<a.size();i++) // runs on the vector's elements
     {
         distance[i]=abs(a[i]-b[i]); //compute the distance between the element of the vector

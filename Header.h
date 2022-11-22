@@ -12,12 +12,12 @@
 using namespace std;
 
 
-float chebyshec (vector <float> a, vector <float> b );
-float CanberraD(vector <float> a,  vector <float> b );
-float euclideanDistance(vector <float> x,  vector <float> y );
-float minkowskiDistance(vector <float> x,  vector <float> y, float p );
-float manhattanDistance(vector <float> x,  vector <float> y );
-vector <float> CreateVector(string str, char seprate,
-                            vector<float> v);
-int CheckInput(vector <float> vector1, vector <float> vector2);
+double chebyshec (vector <double> a, vector <double> b );
+double CanberraD(vector <double> a,  vector <double> b );
+double euclideanDistance(vector <double> x,  vector <double> y );
+double minkowskiDistance(vector <double> x,  vector <double> y );
+double manhattanDistance(vector <double> x,  vector <double> y );
+vector <double> CreateVector(string str, char seprate,
+                            vector<double> v);
+int CheckInput(vector <double> vector1, vector <double> vector2);
 int main();
