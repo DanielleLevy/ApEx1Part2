@@ -23,20 +23,22 @@ vector <float> CreateVector(string str, char seprate,
         if (str[i]!=seprate){
             number=number+str[i];
         }
-        else{
+        else if(number.size()!=0 && str[i]==seprate){
             try{
                 numberAfterConv=stof(number);//check if the string is not nuber
             }
             catch(...){
-                cout<<"you should insert numbers only"<<endl;
+                cout<<"error. you should insert numbers only"<<endl;
                 exit(0);
             }
             v.push_back(numberAfterConv);
             number.clear();
         }
+        else{
+            continue;
+        }
 
     }
-    v.push_back(stof(number));
     return v;
 }
 
