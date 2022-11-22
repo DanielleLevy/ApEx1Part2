@@ -4,13 +4,13 @@
 
 write the following in the terminal , after each one press enter:
 
-1.git clone git@github.com:DanielleLevy/ApEx1Part2.git
+1. git clone git@github.com:DanielleLevy/ApEx1Part2.git
 
-2.cd ApEx1Part2
+2. d ApEx1Part2
 
-3.cmake .
+3. cmake .
 
-4.make
+4. make
 
 ## How to run:
 1. write ./ApEx1Part2
