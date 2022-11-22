@@ -21,7 +21,7 @@ int main(){
         cout<< euclideanDistance(a,b)<<endl;
         cout<< manhattanDistance(a,b)<<endl;
         cout<< chebyshec (a,b)<<endl;
-        cout<< CanberraD(a,b)<<endl;
+        cout<< canberraD(a,b)<<endl;
         cout<< minkowskiDistance(a,b)<<endl;
     }
     else{
