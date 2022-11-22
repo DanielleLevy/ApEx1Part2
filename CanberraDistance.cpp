@@ -6,7 +6,7 @@
 #include <cmath>
 using namespace std;
 
-double CanberraD(vector <double> a,  vector <double> b ){
+double canberraD(vector <double> a,  vector <double> b ){
     /**
      * the function gets 2 vector in the same size and calculates their's canberra distance
      */
