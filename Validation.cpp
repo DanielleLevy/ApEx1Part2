@@ -8,6 +8,10 @@ using namespace std;
 
 vector <float> CreateVector(string str, char seprate,
                             vector<float> v) {
+    if(str.size()==0){ //check if the str empty
+        cout<<"you should insert numbers only"<<endl;
+        exit(0);
+    }
     string number;
     float numberAfterConv;
     for (int i=0;i<str.size();i++){
