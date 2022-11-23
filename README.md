@@ -43,8 +43,9 @@ There are several additional files:
 1. OutputFunctions - This file contained the printFun function that ensured that the results would be printed properly as requested in the exercise instructions.
 
 2. Validation - this file contained two functions:
-     A. createVector - This function created two vectors from the user's input and makes sure there are no problems like empty input, input of letters, input of space, etc. If there are problems, the function prints an appropriate error message.
-     B. checkInput - this function checks whether the two vectors are normal. That is, they are the same size and not empty. If there are problems, the function prints an appropriate error message.
+A. createVector - This function created two vectors from the user's input and makes sure there are no problems like empty input, input of letters, input of space, etc. If there are problems, the function prints an appropriate error message.
+
+B. checkInput - this function checks whether the two vectors are normal. That is, they are the same size and not empty. If there are problems, the function prints an appropriate error message.
 
 * We also note that throughout the exercise we assumed that we get exactly two vectors, vectors of numbers, non-empty vectors, and vectors of the same size. Each vector consists of numbers separated by a space. All this is checked in the validation file.
 
