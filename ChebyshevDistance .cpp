@@ -9,7 +9,7 @@ using namespace std;
 
 double chebyshec (vector <double> a, vector <double> b ){
     /**
-      * the function gets 2 vector in the same size and calculates their's canberra distance
+      * the function gets 2 vector in the same size and calculates their's chebyshec distance
      */
     double max;  //use for the loop to find the maximum distance
     double distance[a.size()]; // to save the distance between the element of the vector
