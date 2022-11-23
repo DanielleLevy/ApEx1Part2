@@ -12,4 +12,5 @@ add_executable(ApEx1Part2
         "Validation.cpp"
         "EuclideanDistance.cpp"
         "ManhattanDistance.cpp"
-        "MinkowskiDistance.cpp")
+        "MinkowskiDistance.cpp"
+        "OutputFunctions.cpp")

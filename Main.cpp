@@ -17,12 +17,13 @@ int main(){
     a=CreateVector(vectorOne,' ',a); //create the first vector
     getline(cin,vectorTwo);         //get the input
     b=CreateVector(vectorTwo,' ',b); //create the second vector
+    double result; //save the result
     if(CheckInput(a,b)!=-1){  //if the vectors pass the validation check , calculate:
-        cout<< euclideanDistance(a,b)<<endl;
-        cout<< manhattanDistance(a,b)<<endl;
-        cout<< chebyshec (a,b)<<endl;
-        cout<< canberraD(a,b)<<endl;
-        cout<< minkowskiDistance(a,b)<<endl;
+        printFun(euclideanDistance(a,b));
+        printFun(manhattanDistance(a,b));
+        printFun(chebyshec (a,b));
+        printFun(canberraD(a,b));
+        printFun(minkowskiDistance(a,b));
     }
     else{
         cout<<"Input check failed, please try again"<<endl;

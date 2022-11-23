@@ -22,4 +22,5 @@ double manhattanDistance(vector <double> x,  vector <double> y );
 vector <double> CreateVector(string str, char seprate,
                             vector<double> v);
 int CheckInput(vector <double> vector1, vector <double> vector2);
+void printFun(double number);
 int main();
