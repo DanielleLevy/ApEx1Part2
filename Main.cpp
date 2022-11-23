@@ -14,11 +14,11 @@ int main(){
     string vectorOne; // init string to get the input
     string vectorTwo; // init string to get the input
     getline(cin,vectorOne); //get the input
-    a=CreateVector(vectorOne,' ',a); //create the first vector
+    a=createVector(vectorOne,' ',a); //create the first vector
     getline(cin,vectorTwo);         //get the input
-    b=CreateVector(vectorTwo,' ',b); //create the second vector
+    b=createVector(vectorTwo,' ',b); //create the second vector
     double result; //save the result
-    if(CheckInput(a,b)!=-1){  //if the vectors pass the validation check , calculate:
+    if(checkInput(a,b)!=-1){  //if the vectors pass the validation check , calculate:
         printFun(euclideanDistance(a,b));
         printFun(manhattanDistance(a,b));
         printFun(chebyshec (a,b));
