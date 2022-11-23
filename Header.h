@@ -19,8 +19,8 @@ double canberraD(vector <double> a,  vector <double> b );
 double euclideanDistance(vector <double> x,  vector <double> y );
 double minkowskiDistance(vector <double> x,  vector <double> y );
 double manhattanDistance(vector <double> x,  vector <double> y );
-vector <double> CreateVector(string str, char seprate,
+vector <double> createVector(string str, char seprate,
                             vector<double> v);
-int CheckInput(vector <double> vector1, vector <double> vector2);
+int checkInput(vector <double> vector1, vector <double> vector2);
 void printFun(double number);
 int main();
