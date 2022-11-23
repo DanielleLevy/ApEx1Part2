@@ -8,7 +8,7 @@
 #include <string>
 using namespace std;
 
-vector <double> CreateVector(string str, char seprate,
+vector <double> createVector(string str, char seprate,
                             vector<double> v) {
     /*this function get create a vector from the input
      * input: str- the line that the user put
@@ -62,7 +62,7 @@ vector <double> CreateVector(string str, char seprate,
     return v;   //Returning the vector
 }
 
-int CheckInput(vector <double> vector1, vector <double> vector2){
+int checkInput(vector <double> vector1, vector <double> vector2){
     //The function receives 2 vectors and performs input tests on them
     if (vector1.size()!=vector2.size()){
         //If the vectors are not the same size
